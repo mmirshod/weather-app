@@ -55,7 +55,8 @@ def index():  # put application's code here
             'temp_c': content['current']['temp_c'],
             'temp_f': content['current']['temp_f'],
             'text': content['current']['condition']['text'],
-            'icon': content['current']['condition']['icon']
+            'icon': content['current']['condition']['icon'],
+            'country': content['location']['country']
         }
         weather_data.append(weather)
 
